@@ -8,5 +8,13 @@
     document.getElementById("GoogleLogin").style.display = "initial";
         document.getElementById("GoogleLoguit").style.display = "none";
     });
+
+    <?php
+    session_start();
+    unset($_SESSION["session_user"]);
+    session_destroy();
+    header("location:index.php");
+
+    ?>
   }
 </script></div>

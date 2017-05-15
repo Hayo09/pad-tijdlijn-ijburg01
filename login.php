@@ -13,4 +13,12 @@ ini_set('display_errors', 1);
 <p> Log hieronder in met je Google account. </p>
                     <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     </br> </div>
+                    <?php
+                    {
+                    session_start();
+                    $_SESSION ['session_user']=$user;
+
+                    header("location:tijdlijn-maken.php")
+?>
+                    }
 </div>
