@@ -1,10 +1,10 @@
 <?php
 
-
-session_start();
+//rick
+/* session_start();
 if (!isset($_SESSION["session_user"])) {
         header("location:index.php");
-    } else {
+    } else { */
 
         
 error_reporting(E_ALL);
