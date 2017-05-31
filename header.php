@@ -1,5 +1,9 @@
 <?php 
 //header('Content-type: text/html; charset=utf-8');
+
+                        //rick
+           //         session_start();
+            //        $_SESSION ['session_user']= $user;
 ?>
 
 <!DOCTYPE html>

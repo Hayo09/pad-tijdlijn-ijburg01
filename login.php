@@ -10,15 +10,16 @@ ini_set('display_errors', 1);
 ?>
 <div class="login">
 <div id="GoogleLogin" style="display: initial;">
-<p> Log hieronder in met je Google account </p>
+<p> Log hieronder in met je Google account. </p>
                     <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     </br> </div>
                     <?php
-                    {
-                    session_start();
-                    $_SESSION ['session_user']=$user;
+                    
+                    	//rick
+                //    session_start();
+//$_SESSION ['session_user']= $user;
 
-                    header("location:tijdlijn-maken.php")
-?>
-                    }
+              //      header("location:tijdlijn-maken.php")
+
+                     ?>
 </div>

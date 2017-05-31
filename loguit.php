@@ -9,12 +9,15 @@
         document.getElementById("GoogleLoguit").style.display = "none";
     });
 
-    <?php
+
+  }
+
+      <?php //rick 
+    /*
     session_start();
     unset($_SESSION["session_user"]);
     session_destroy();
-    header("location:index.php");
+    header("location:index.php"); */
 
     ?>
-  }
 </script></div>
